@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100%;
+  height: 1290px;
+  background: url("../images/background_header.png"), 50% 50%, no-repeat;
+  background-size: cover;
+  opacity: 0.8; }
+
+.logo {
+  margin-left: 12.500em;
+  margin-top: 3.250em;
+  position: absolute; }
+
+.text_header {
+  position: static;
+  margin-top: 25.500em;
+  margin-right: -10%;
+  float: right; }
+  .text_header h1 {
+    color: #ffffff;
+    font-size: 144px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0; }
+  .text_header p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 55px; }
+
+.buttons {
+  margin-top: 60.750em;
+  margin-left: 34.725em;
+  position: absolute; }
+
+.button {
+  display: inline-block;
+  margin: 1em;
+  width: 0.750em;
+  height: 0.750em;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.25), inset 0 2px 0 rgba(255, 255, 255, 0.6), 0 2px 0 rgba(0, 0, 0, 0.1), inset 0 0 20px rgba(0, 0, 0, 0.1); }
+
+/*# sourceMappingURL=header.css.map */
