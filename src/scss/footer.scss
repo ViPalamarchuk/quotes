@@ -1,0 +1,25 @@
+footer > ul > li {
+  display: inline-table;
+}
+footer > ul> li > ul > li {
+  display: table;
+  margin-bottom: 0;
+  color: #000000;
+}
+ul {
+  line-height: 2;
+  justify-content: flex-start;
+  padding-left: 100px;
+}
+footer{
+  clear: both;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 15%;
+  max-height: 15%;
+  background-color: #ffffff;
+  background-size: cover;
+  & button{
+    background-color: #3e65e3;
+  }
+}
