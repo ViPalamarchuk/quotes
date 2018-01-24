@@ -4,7 +4,7 @@ section{
   }
   & p{
     text-align: center;
-    width: 55em;
+    width: 55%;
     margin-left: 15em;
     font-weight: 600;
     padding: 1%;
@@ -12,7 +12,7 @@ section{
 }
 article{
   width: 100%;
-  height: 40em;
+  height: 40%;
   display: flex;
   background:scroll, url("../images/article_pink_section.png"), 50% 50%, no-repeat;
   & img{
@@ -22,8 +22,30 @@ article{
     margin-bottom: 2%;
     margin-left: 0;
   }
-  & blockquote{
+  & blockquote {
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 900;
     height: 23.125em;
-    
+    width: 50%;
+    margin: 3.750em;
+    line-height: 2;
   }
+  .buton{
+    display: inline-block;
+    width: 0.50em;
+    height: 0.50em;
+    background-color: rgb(214, 70, 7);
+    cursor: pointer;
+    border-radius: 50%;
+    
+    box-shadow: 0 3px 20px rgba(0,0,0,.25),
+    inset 0 2px 0 rgba(255,255,255,.6),
+    0 2px 0 rgba(0,0,0,.1),
+    inset 0 0 20px rgba(0,0,0,.1);
+  }
+}
+.poster{
+  background-color: #eaeef1;
+  height: 100%;
 }
